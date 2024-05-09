@@ -1,6 +1,7 @@
  let playerText = document.getElementById('playerText')
  let restartBtn = document.getElementById('restartBtn')
  let boxes = Array.from(document.getElementsByClassName('box'))
+ let aPlayerHasWon = false
 
  let winnerIndicator = getComputedStyle(document.body).getPropertyValue('--winning-blocks')
 
@@ -14,6 +15,9 @@
  }
 
  function boxClicked(e) {
+     if(aPlayerHasWon) {
+        return
+     }
      const id = e.target.id
 
      if(!spaces[id]){
@@ -21,6 +25,7 @@
          e.target.innerText = currentPlayer
 
          if(playerHasWon() !==false){
+             aPlayerHasWon = true
              playerText.innerHTML = `${currentPlayer} has won!`
              let winning_blocks = playerHasWon()
 
@@ -43,12 +48,12 @@
      [2,4,6]
  ]
 
- function playerHasWon() {
+ function playerHasWon() {       
      for (const condition of winningCombos) {
          let [a, b, c] = condition
 
          if(spaces[a] && (spaces[a] == spaces[b] && spaces[a] == spaces[c])) {
-             return [a,b,c]
+             return [a,b,c]           
          }
      }
      return false
@@ -67,6 +72,7 @@
      playerText.innerHTML = 'Tic Tac Toe'
 
      currentPlayer = X_TEXT
+     aPlayerHasWon = false
  }
 
  startGame()
