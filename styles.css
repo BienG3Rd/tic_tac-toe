@@ -36,6 +36,7 @@ h2{
     background-color: #37505c;
     object-fit: cover;
     background-image: url("https://media.istockphoto.com/id/1060735836/photo/abstract-tic-tac-toe-game-competition-xo-win-challenge-concept-on-black-board.jpg?s=1024x1024&w=is&k=20&c=EVKuUFeJKtCk6XS4yb5C5T6CKag_V_U8IUMwxCbm6ew=");
+    
 }
 
 #gameboard {
@@ -53,8 +54,8 @@ h2{
     color: var(--orange);
     font-size: 120px;
     text-shadow: 5px 5px 10px whitesmoke;
-    border-right: 2px solid;
-    border-bottom: 2px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
     cursor: pointer;
 }
 .box:nth-child(3n) {
