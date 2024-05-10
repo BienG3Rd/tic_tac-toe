@@ -6,7 +6,7 @@
 
 :root {
     --orange: #F2C14E;
-    --winning-blocks: #2d414b;
+    --winning-blocks: #a1a6a9;
 }
 
 body {
@@ -17,6 +17,7 @@ h1{
     font-size: 54px;
     text-transform: uppercase;
     text-align: center;
+    text-shadow: 5px 5px 10px #333 ;
 }
 h2{
     font-size: 45pxpx;
@@ -33,7 +34,7 @@ h2{
     align-items: center;
     flex-direction: column;
     background-color: #37505c;
-    
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/08/20/29/chess-2730034_1280.jpg");
 }
 
 #gameboard {
@@ -50,6 +51,7 @@ h2{
     justify-content: center;
     color: var(--orange);
     font-size: 120px;
+    text-shadow: 5px 5px 10px whitesmoke;
     border-right: 2px solid;
     border-bottom: 2px solid;
     cursor: pointer;
