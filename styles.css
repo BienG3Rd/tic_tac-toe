@@ -20,7 +20,7 @@ h1{
     text-shadow: 5px 5px 10px #333 ;
 }
 h2{
-    font-size: 45pxpx;
+    font-size: 45px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -32,7 +32,7 @@ a {
 
 .form-box {
     text-align: center;
-    background-color: #37505c;
+    background-color: #274d5f;
     border-radius: 8px;
     width: 20%;
 }
@@ -63,7 +63,6 @@ a {
     background-color: #37505c;
     object-fit: cover;
     background-image: url("https://www.shutterstock.com/shutterstock/videos/1069481302/thumb/7.jpg?ip=x480");
-    
 }
 
 #gameboard {
@@ -71,7 +70,16 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
+    text-align: center;
+    margin-left: 110px;
 }
+
+.game-div {
+    background-color: #37505c;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 .box {
     height: 100px;
     width: 100px;
@@ -110,6 +118,12 @@ button:hover {
     color: #F2C14E;
     border-color: var(--orange);
 }
+
+.game-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .signincontainer{
     height:auto;
     width: auto;
