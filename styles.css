@@ -25,6 +25,10 @@ h2{
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+}
 
 .container {
     padding: 40px;
@@ -87,6 +91,7 @@ button:hover {
     height:auto;
     width: auto;
     background-color: #37505c;
+    text-align: center;
     
 }
 #signinbody{
