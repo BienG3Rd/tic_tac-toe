@@ -30,6 +30,29 @@ a {
     color: #333;
 }
 
+.form-box {
+    text-align: center;
+    background-color: #37505c;
+    border-radius: 8px;
+    width: 20%;
+}
+
+.input-group {
+    margin-top: 30px;
+}
+
+.input-field {
+    height: 60px;
+}
+
+.textarea {
+    width: 260px;
+    height: 40px;
+    border-radius: 6px;
+    border: 2px solid #F2C14E;
+    cursor: pointer;
+}
+
 .container {
     padding: 40px;
     height: 100vh;
