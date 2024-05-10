@@ -13,10 +13,27 @@
 </head>
 <body >
     <div class="container">
-        <h1 id="playerText">Tic Tac Toe</h1>
-        <div id="signInSection">
-            <input type="text" id="playerNameInput" placeholder="Enter your name" required>
-            <button id="signInButton" type="submit"><a href="game.html">Play Game</a></button>
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <input type="text" placeholder="Username" required>
+                    </div>
+
+                    <div class="input-field">
+                        
+                        <input type="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="myButton"><a href="game.html">Sign in</a></button>
+                </div>
+            </form>
         </div>
     </div>
     <script src="gamelogic.js"></script>
