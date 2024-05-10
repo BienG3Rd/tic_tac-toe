@@ -13,10 +13,17 @@ body {
     color: var(--orange);
     font-family: 'Finger Paint', cursive;
 }
-h1 {
+h1{
     font-size: 54px;
     text-transform: uppercase;
+    text-align: center;
 }
+h2{
+    font-size: 45pxpx;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 .container {
     padding: 40px;
@@ -45,6 +52,7 @@ h1 {
     font-size: 120px;
     border-right: 2px solid;
     border-bottom: 2px solid;
+    cursor: pointer;
 }
 .box:nth-child(3n) {
     border-right: none;
@@ -62,9 +70,21 @@ button {
     transition: 200ms transform;
     font-weight: 600;
     margin: 5rem;
+    cursor: pointer;
 }
 button:hover {
     cursor: pointer;
     transform: translateY(-2px);
     background-color: #37505c;
+    color: #F2C14E;
+    border-color: var(--orange);
+}
+.signincontainer{
+    height:auto;
+    width: auto;
+    background-color: #37505c;
+    
+}
+#signinbody{
+    background-image: url("https://images.pexels.com/photos/278888/pexels-photo-278888.jpeg?auto=compress&cs=tinysrgb&w=600");
 }
