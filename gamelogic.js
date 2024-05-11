@@ -77,18 +77,3 @@
 
  startGame()
 
- //let playerText = document.getElementById("playertext");
-// let restartBtn = document.getElementById("restartBtn");
-// let boxes = Array.from(document.getElementsByClassName("box"))
-
-// const player1 = "X"
-// const player2 = "O"
-
-// boxes.forEach(addEventListener("click", clicked()))
-
-
-
-
-// function clicked(e){
-//     this.textContent = "X";
-// }
